@@ -1,0 +1,139 @@
+* {
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color: #1B1E1F;
+    line-height: 21px;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #003399;
+}
+
+a:hover, a:hover font {
+  background-color: #003399;
+  color: #f5f5ff;
+  text-decoration: none;
+}
+
+th {
+  color: #ffffff;
+  background-color: #445669;
+}
+
+th a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+th a:hover {
+  color: #445669;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.empty {
+  border: 0pt;
+  color: #000000;
+  background-color: #F5F5FF;
+}
+
+td.c1, td.tipC {
+  background-color: #ff9999;
+}
+
+td.c2, td.tipS {
+  background-color: #ccffcc;
+}
+
+td.c3, td.tipL {
+  background-color: #ffffcc;
+}
+
+span.c1, span.tipC {
+  background-color: #ff9999;
+}
+
+span.c2, span.tipS {
+  background-color: #ccffcc;
+}
+
+span.c3, span.tipL {
+  background-color: #ffffcc;
+}
+
+td.bloc {
+  background-color: #ffcccc;
+}
+
+/* */
+
+table {
+    border: 1px solid #777777 !important;
+    border-collapse: collapse;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color: #1B1E1F;
+    /*width: 400px*/
+}
+
+/* 4est */
+table tr#masterat-stedu-sep {
+    background-color: #8FCEF0;
+}
+
+table tr th {
+    border: 1px solid #777777 !important;
+    background-color: #608ca4;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table tr td, table tr th {
+    border: 1px solid #777777 !important;
+    vertical-align: middle;
+    padding: 2px 4px;
+}
+
+h1 {
+    color: #1B1E1F;
+    margin: 16px 0 16px 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1B1E1F;
+    margin: 16px 0 16px 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #1B1E1F;
+    margin: 16px 0 16px 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #1B1E1F;
+    margin: 16px 0 16px 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+}
