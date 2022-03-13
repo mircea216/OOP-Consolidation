@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Cosmin/CLionProjects/lab_07/Domain/Expenditure.h
+iostream
+-
+
+C:/Users/Cosmin/CLionProjects/lab_07/Repository/Repository.h
+../Domain/Expenditure.h
+C:/Users/Cosmin/CLionProjects/lab_07/Domain/Expenditure.h
+
+C:/Users/Cosmin/CLionProjects/lab_07/Service/Service.h
+../Repository/Repository.h
+C:/Users/Cosmin/CLionProjects/lab_07/Repository/Repository.h
+
+C:/Users/Cosmin/CLionProjects/lab_07/Tests/Test.h
+
+C:/Users/Cosmin/CLionProjects/lab_07/UserInterface/UserInterface.h
+../Service/Service.h
+C:/Users/Cosmin/CLionProjects/lab_07/Service/Service.h
+
+C:/Users/Cosmin/CLionProjects/lab_07/app.cpp
+Tests/Test.h
+C:/Users/Cosmin/CLionProjects/lab_07/Tests/Test.h
+Repository/Repository.h
+C:/Users/Cosmin/CLionProjects/lab_07/Repository/Repository.h
+Service/Service.h
+C:/Users/Cosmin/CLionProjects/lab_07/Service/Service.h
+UserInterface/UserInterface.h
+C:/Users/Cosmin/CLionProjects/lab_07/UserInterface/UserInterface.h
+
